@@ -1,0 +1,182 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{multicol}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\setlength{\multicolsep}{0pt plus 0pt}
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNew}[1]{
+	\item{
+		{#1}
+	}
+
+	
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeNewItem}[1]{\resumeItemNew{#1}\vspace{-8pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+ \textbf{\href{https://exploringaiblog.wordpress.com/}{\Large Daniyal Selani}} & Email : \href{mailto:daniyal.9538@gmail.com}{daniyal.9538@gmail.com}\\ & \href{https://github.com/daniyal9538}{github.com/daniyal9538} \\
+\end{tabular*}
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Paitoo}{Lahore, Pakistan}
+      {Software Engineer, Working Remotely}{February 2019 - Present}
+      \resumeItemListStart
+        \resumeItem{Recommendation Engine}
+          {Developing and designing a recommendation engine for the Paitoo App. The app is a social media platform for foodies, where people can share 	their food experiences.  }
+        \resumeItem{Data Analysis}
+          {Performing data analysis on user data collected from the Paitoo app.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {DataLog}{Karachi, Pakistan}
+      {Computer Engineer Internee}{July 2018 - September 2018 }
+      \resumeItemListStart
+        \resumeItem{UWP App}
+          {Designed and built a UWP app. The app was to  collect data from sensors and IoT devices, deal with login credentials, display gathered information, and send data to either client’s local server  or a cloud storage solution.}
+       
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {CodeNConsult}{Karachi, Pakistan}
+      {Computer Engineer Internee}{May 2018 - July 2018 }
+      \resumeItemListStart
+        \resumeItem{IoT Sensor Collection App}
+          {Designed and built an application that would run on a  Raspberry Pi. The Pi would collect data from other IoT devices and send the data to Azure servers. The data was to be accessible from the Microsoft Dynamics CRM.}
+      
+      \resumeItemListEnd
+
+    
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Graduation Project }
+      {Designing an architecture for making  the development of self-driving systems more accessible. The architecture is modular, so that different learning algorithms (deep learning, reinforcement learning) can be implemented as modules and integrated into the system easily. Currently trying to get the  research published in a conference.}
+    \resumeSubItem{Exploring AI Blog }
+      {Personal blog in which I write either tutorials explaining basic concepts of  machine learning, an analysis on any related topics, or my thoughts on  anything related to technology.}
+    
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Middle East Technical University}{North Cyprus, Turkey}
+{Bachelors of Science in Computer Engineering}{August 2014 -- June 2019}
+
+\resumeSubHeadingListEnd
+
+
+%----------Courses---------
+\section{Selected Coursework}
+\resumeSubHeadingListStart
+\begin{multicols}{2}
+
+	\resumeNewItem{Machine Learning}
+	\resumeNewItem{Artificial Intelligence}
+	\resumeNewItem{Statistics for Engineers}		
+	\resumeNewItem{Software Engineering}
+	\resumeNewItem{Database Management}
+	\resumeNewItem{Systems and Simulations}
+	\resumeNewItem{Algorithms}
+	\resumeNewItem{OOP Languages and Systems}
+	\resumeNewItem{Cloud Computing}
+	
+	
+\end{multicols}
+\resumeSubHeadingListEnd
+%
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+     \item{
+    	\textbf{Proficient with}{: Python • C++ •  SkLearn • OpenCV •  Pandas • TensorFlow • Keras • Git • Arduino PCBs}
+    }
+    
+    \item{
+    	\textbf{Have Knowledge of}{: C • Java • XAML •  HTML5 • CSS • Microsoft Dynamics • CRM • Azure •  AWS • C\# • IoT Technology • SQL •  Raspberry Pi}
+    	
+    }
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
