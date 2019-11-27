@@ -50,6 +50,12 @@
   }
 }
 
+\newcommand{\resumeItemNoColon}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
 \newcommand{\resumeItemNew}[1]{
 	\item{
 		{#1}
@@ -94,40 +100,42 @@
   \resumeSubHeadingListStart
 
  \resumeSubheading
-      {OneByte}{Lahore, Pakistan}
-      {Software Engineer, Working Remotely}{September 2019 - Present}
+      {OneByte}{September 2019 - Present}
+      {Software Engineer, Working Remotely}{Lahore, Pakistan}
       \resumeItemListStart
-        \resumeItem{Data Extraction System}
-          {Developing a system that extracts relevant medical data from human speech for a patient screening and monitoring solution (EonDirect).}
+        \resumeItem{Data Extraction and Classification System}
+          {Deveoloping a system to extract relevant medical data from medical reports for disease classification for a patient screening and monitoring solution (EonDirect).}
+ \resumeItem{Machine Learning Model Vetting System}
+          {Developing a system that uses a custom Prodigy interface to vet results from machine learning models.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {Paitoo}{Lahore, Pakistan}
-      {Machine Learning Engineer, Working Remotely}{February 2019 - September 2019}
+      {Paitoo}{February 2019 - September 2019}
+      {Machine Learning Engineer, Working Remotely}{Lahore, Pakistan}
       \resumeItemListStart
         \resumeItem{Recommendation Engine}
-          {Developing and designing a recommendation engine for the Paitoo App. The app is a social media platform for foodies, where people can share 	their food experiences.  }
+          {Developed a recommendation engine for the Paitoo App. The app is a social media platform for foodies, where people can share 	their food experiences.  }
 	\resumeItem{Classification System}
-          {Developing and designing classification categories and classification system to automatically classify dishes in the Paitoo database.}
+          {Developed classification categories and a classification system to automatically classify dishes in the Paitoo database.}
         \resumeItem{Data Analysis}
-          {Performing data analysis on user data collected from the Paitoo app.}
+          {Performed data analysis on user data collected from the Paitoo app.}
       \resumeItemListEnd
 
     \resumeSubheading
-      {DataLog}{Karachi, Pakistan}
-      {Computer Engineer Internee}{July 2018 - September 2018 }
+      {DataLog}{July 2018 - September 2018 }
+      {Computer Engineer Internee}{Karachi, Pakistan}
       \resumeItemListStart
         \resumeItem{UWP App}
-          {Designed and built a UWP app. The app was to  collect data from sensors and IoT devices, deal with login credentials, display gathered information, and send data to either client’s local server  or a cloud storage solution.}
+          {Developed app for data collection, authentication and cloud storage, with integration for Microsoft Dynamics CRM.}
        
       \resumeItemListEnd
 
     \resumeSubheading
-      {CodeNConsult}{Karachi, Pakistan}
-      {Computer Engineer Internee}{May 2018 - July 2018 }
+      {CodeNConsult}{May 2018 - July 2018}
+      {Computer Engineer Internee}{Karachi, Pakistan}
       \resumeItemListStart
         \resumeItem{IoT Sensor Collection App}
-          {Designed and built an application that would run on a  Raspberry Pi. The Pi would collect data from other IoT devices and send the data to Azure servers. The data was to be accessible from the Microsoft Dynamics CRM.}
+          {Developed app for data collection from IoT devices.}
       
       \resumeItemListEnd
 
@@ -140,11 +148,11 @@
 \section{Projects}
   \resumeSubHeadingListStart
     
-\resumeSubItem{Boolean Logic Ensemble Method }
+\resumeSubItem{Boolean Logic Ensemble Method}
       {Implementing hierarchical categories with a novel boolean logic ensemble classifier to overcome dataset limitations.}
 \resumeSubItem{Graduation Project (CID)}
-      {Designing and developing a system for self-driving cars in virtual environments. The architecture is modular, so that different learning algorithms (deep learning, reinforcement learning) can be implemented and tested as modules and can integrate into the system easily.}
-    \resumeSubItem{Exploring AI Blog }
+      {Developing a modular self-driving system for use in virtual environments.}
+    \resumeSubItem{Exploring AI Blog}
       {Personal blog in which I write either tutorials explaining basic concepts of  machine learning, an analysis on any related topics, or my thoughts on  anything related to technology.}
     
   \resumeSubHeadingListEnd
@@ -153,9 +161,12 @@
 \section{Education}
 \resumeSubHeadingListStart
 \resumeSubheading
-{Middle East Technical University}{North Cyprus, Turkey}
-{Bachelors of Science in Computer Engineering}{August 2014 -- June 2019}
-
+{Middle East Technical University}{August 2014 -- June 2019}
+{Bachelors of Science in Computer Engineering}{North Cyprus, Turkey}
+\resumeItemListStart
+	\resumeItemNoColon{}{Member of IEEE Society}
+	\resumeItemNoColon{}{Member of Climbing Society}
+ \resumeItemListEnd
 \resumeSubHeadingListEnd
 
 
