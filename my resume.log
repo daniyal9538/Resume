@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.9)  21 JUN 2021 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.9)  1 JUL 2021 23:18
 entering extended mode
 **"./my resume.tex"
 (my resume.tex
@@ -342,8 +342,7 @@ tex.def
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box95
-)
-No file "my resume".aux.
+) (my resume.aux)
 \openout1 = `"my resume.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -396,6 +395,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 89.
 LaTeX Info: Redefining \pageref on input line 89.
 LaTeX Info: Redefining \nameref on input line 89.
+ (my resume.out) (my resume.out)
 \@outlinefile=\write3
 \openout3 = `"my resume.out"'.
 
@@ -431,14 +431,14 @@ Package rerunfilecheck Warning: File `"my resume".out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `"my resume".out':
-(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             Before: D5D4E2E24D2A0A5F1785DA0DB60C3F77;483
 (rerunfilecheck)             After:  1D0C81F3C5161B2DBF469231BB3B27D2;478.
  ) 
 Here is how much of TeX's memory you used:
- 9636 strings out of 479334
- 142903 string characters out of 2857085
- 478013 words of memory out of 3000000
- 26970 multiletter control sequences out of 15000+200000
+ 9648 strings out of 479334
+ 143134 string characters out of 2857085
+ 479221 words of memory out of 3000000
+ 26976 multiletter control sequences out of 15000+200000
  409698 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,74p,230b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -451,9 +451,9 @@ onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/daniy/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/daniy/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/daniy/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "my resume.pdf" (1 page, 97269 bytes).
+Output written on "my resume.pdf" (1 page, 98516 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
