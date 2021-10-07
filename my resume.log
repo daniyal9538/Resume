@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.9)  23 SEP 2021 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.9)  7 OCT 2021 15:17
 entering extended mode
 **"./my resume.tex"
 (my resume.tex
@@ -426,12 +426,12 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 {C:/Users/daniy/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 (my resume.aux)
 Package rerunfilecheck Info: File `"my resume".out' has not changed.
-(rerunfilecheck)             Checksum: 1D0C81F3C5161B2DBF469231BB3B27D2;478.
+(rerunfilecheck)             Checksum: 8F833D56DC895A99823D3812D0FFF3C6;569.
  ) 
 Here is how much of TeX's memory you used:
  9648 strings out of 479334
  143134 string characters out of 2857085
- 479221 words of memory out of 3000000
+ 480221 words of memory out of 3000000
  26976 multiletter control sequences out of 15000+200000
  409698 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -445,7 +445,7 @@ onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/daniy/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/daniy/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/daniy/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "my resume.pdf" (1 page, 99322 bytes).
+Output written on "my resume.pdf" (1 page, 99508 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  7 named destinations out of 1000 (max. 500000)
