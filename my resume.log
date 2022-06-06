@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.9)  17 FEB 2022 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.9)  30 MAY 2022 10:57
 entering extended mode
 **"./my resume.tex"
 (my resume.tex
@@ -345,24 +345,24 @@ File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 ) (my resume.aux)
 \openout1 = `"my resume.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 
 (C:\Users\daniy\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
@@ -379,7 +379,7 @@ ii
 \makeMPintoPDFobject=\count283
 \everyMPtoPDFconversion=\toks22
 )
-Package hyperref Info: Link coloring OFF on input line 89.
+Package hyperref Info: Link coloring OFF on input line 90.
  (C:\Users\daniy\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -392,29 +392,29 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 89.
-LaTeX Info: Redefining \pageref on input line 89.
-LaTeX Info: Redefining \nameref on input line 89.
+LaTeX Info: Redefining \ref on input line 90.
+LaTeX Info: Redefining \pageref on input line 90.
+LaTeX Info: Redefining \nameref on input line 90.
  (my resume.out) (my resume.out)
 \@outlinefile=\write3
 \openout3 = `"my resume.out"'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 92.
+(Font)              <10.95> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 92.
+(Font)              <8> on input line 93.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 92.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 92
+(Font)              <6> on input line 93.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 93
 .
 
 (C:\Users\daniy\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 116.
+(Font)              <7> on input line 109.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 116.
+(Font)              <5> on input line 109.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -424,24 +424,23 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {C:/Users/daniy/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
-(my resume.aux)
 
-Package rerunfilecheck Warning: File `"my resume".out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+Package fancyhdr Warning: \footskip is too small (0.0pt): 
+(fancyhdr)                Make it at least 4.08003pt, for example:
+(fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-Package rerunfilecheck Info: Checksums for `"my resume".out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  8F833D56DC895A99823D3812D0FFF3C6;569.
+[2] (my resume.aux)
+Package rerunfilecheck Info: File `"my resume".out' has not changed.
+(rerunfilecheck)             Checksum: 84B68AAEA79F4528F1A1118128123B4A;569.
  ) 
 Here is how much of TeX's memory you used:
- 9642 strings out of 479334
- 143077 string characters out of 2857085
- 481077 words of memory out of 3000000
- 26970 multiletter control sequences out of 15000+200000
+ 9649 strings out of 479334
+ 143140 string characters out of 2857085
+ 478221 words of memory out of 3000000
+ 26976 multiletter control sequences out of 15000+200000
  409698 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,74p,230b,342s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,11n,74p,254b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\daniy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk> <C:\Users\daniy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1095.pk><C:/Users/daniy/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -451,9 +450,9 @@ onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/daniy/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/daniy/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/daniy/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "my resume.pdf" (1 page, 97492 bytes).
+Output written on "my resume.pdf" (2 pages, 99864 bytes).
 PDF statistics:
- 59 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 79 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
