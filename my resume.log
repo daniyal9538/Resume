@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.9)  30 MAY 2022 10:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.9)  14 DEC 2022 17:29
 entering extended mode
 **"./my resume.tex"
 (my resume.tex
@@ -412,9 +412,9 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 93
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 109.
+(Font)              <7> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 109.
+(Font)              <5> on input line 120.
 
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
@@ -431,16 +431,16 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [2] (my resume.aux)
 Package rerunfilecheck Info: File `"my resume".out' has not changed.
-(rerunfilecheck)             Checksum: 84B68AAEA79F4528F1A1118128123B4A;569.
+(rerunfilecheck)             Checksum: FDCE8E62357C7A80D2FCDB6260DAC624;569.
  ) 
 Here is how much of TeX's memory you used:
  9649 strings out of 479334
  143140 string characters out of 2857085
- 478221 words of memory out of 3000000
+ 480221 words of memory out of 3000000
  26976 multiletter control sequences out of 15000+200000
  409698 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,74p,254b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 71i,11n,74p,268b,457s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\daniy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk> <C:\Users\daniy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\tcrm1095.pk><C:/Users/daniy/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -450,7 +450,7 @@ onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/daniy/AppData/Local/Program
 s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/daniy/AppData/Local
 /Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/daniy/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "my resume.pdf" (2 pages, 99864 bytes).
+Output written on "my resume.pdf" (2 pages, 100360 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  8 named destinations out of 1000 (max. 500000)
