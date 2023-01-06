@@ -1,0 +1,272 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{multicol}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in}
+
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+%-------------------------
+% Custom commands
+\setlength{\multicolsep}{0pt plus 0pt}
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\setlength{\multicolsep}{ 0pt plus 0pt}
+\newcommand{\resumeItemPlain}[2]{
+  \item\small{
+  {#1}
+  }
+}
+
+\newcommand{\resumeItemNoColon}[2]{
+  \item\small{
+    \textbf{#1}{ #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeItemNew}[1]{
+	\item{
+		{#1}
+	}
+
+	
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeNewItem}[1]{\resumeItemNew{#1}\vspace{-7pt}}
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-5pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+ \textbf{\href{https://www.linkedin.com/in/daniyal-selani-745022174/}{\Large Daniyal Selani}} & Email: \href{mailto:daniyal.9538@gmail.com}{daniyal.9538@gmail.com}\\
+{}& {{Phone: +31685681702}}\\ & \href{https://github.com/daniyal9538}{github.com/daniyal9538} \\
+\vspace{-10.5mm}
+\end{tabular*}
+
+%-----------EDUCATION-----------------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Masters in Artificial Intelligence}{August 2020 -- July 2022}
+{VU Amsterdam}{Amsterdam, Netherlands}
+\resumeSubheading
+{Bachelors of Science in Computer Engineering}{August 2014 -- June 2019}
+{Middle East Technical University}{North Cyprus, Turkey}
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects and Publications}
+  \resumeSubHeadingListStart
+    \resumeSubItem{\href{https://github.com/daniyal9538/coactivation_AE_AD}{Auto-Encoder Knowledge Extraction for Anomaly Detection Task}}
+      {Using co-activation graphs to represent knowledge learned by auto-encoders during training (ACM K-CAP conference 2021).}
+\resumeSubItem{Exploration of Deep Learning Models for Integrating Log Data in Maintenance Classification}{Developing and evaluating novel transformer based language models for downstream medical device maintenance and diagnosis. }
+\resumeSubItem{\href{https://exploringaiblog.wordpress.com/2019/09/20/implementing-hierarchical-categories-with-an-ensemble-classifier-to-overcome-dataset-limitations/}{Boolean Logic Ensemble Method}}
+      {Hierarchical categories with a novel boolean logic ensemble classifier to overcome dataset limitations.}
+\resumeSubItem{\href{https://github.com/daniyal9538/CID}{Can It Drive (CID)}}
+      {Modular self-driving system for use in virtual environments.}
+    %\resumeSubItem{\href{https://exploringaiblog.wordpress.com/}{Exploring AI Blog}}
+      %{Personal blog in which I write either tutorials explaining basic concepts of  machine learning, an analysis on any related topics, or my thoughts on  anything related to technology.}
+    
+  \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------------
+
+
+\section{Experience}
+  \resumeSubHeadingListStart
+\resumeSubheading
+      {ING}{September 2022 - Present}
+      {Data Scientists}{Amsterdam, Netherlands}
+      \resumeItemListStart
+        \resumeItemPlain
+         {Designing a churn prediction system for evaluating the likelihood of customers leaving ING services.}
+      
+	      \resumeItemListEnd
+
+ \resumeSubheading
+      {Philips}{January 2022 - July 2022}
+      {AI for Language Research Intern}{Eindhoven, Netherlands}
+      \resumeItemListStart
+        \resumeItemPlain
+          {Developed novel transformer based language models for log data generated by medical devices for down stream predictive maintenance and diagnostic tasks.}
+      
+ \resumeItemPlain  
+          {Experimented with combining natural language information with machine generated data for predictive maintenance and diagnosis.}
+ 
+\resumeItemPlain  
+          {Facilitated social and career events for the intern community at Philips as a board member of the Philips Intern Committee.}
+
+
+	      \resumeItemListEnd
+\resumeSubheading
+      {VU Amsterdam}{November 2021 - July 2022}
+      {Research Assistant}{Amsterdam, Netherlands}
+      \resumeItemListStart
+        \resumeItemPlain
+          {Developed novel data pipelines to feed deep learning transformer based models for the task of epitope (protein-protein interaction) prediction.}
+     
+	\resumeItemPlain
+	{Experimented with using coactivation graphs on transformer based model (OPUS-TASS) for interpretability.}
+	      
+\resumeItemListEnd
+ \resumeSubheading
+      {OneByte}{September 2019 - December 2021}
+      {Data Scientist}{Remote Work}
+      \resumeItemListStart
+        \resumeItemPlain
+          {Developed back-end systems for identifying actionable findings and organ-specific abnormalities in patient screening and monitoring systems.}
+ 	
+	\resumeItemPlain
+	{Developed SpaCy based natural language models for entity linking, recognition and extraction from medical documents.}
+
+        \resumeItemPlain
+          {Developed a natural language model to map medical procedure names from different hospitals to a standardized lexicon.}
+ 
+        \resumeItemPlain
+          {Implemented custom Prodigy based pipelines for model assessment by domain experts. The pipeline also included monitoring system that provides an overview of expert feedback and progress.}
+ %\resumeItem{Script Monitoring System}
+          %{Monitoring system for model assessing pipeline.}
+
+        \resumeItemPlain
+          {Developed a deep learning model for muzzle print identification of cattle using computer vision and few shot learning.}
+
+      \resumeItemListEnd
+
+%------------------------------
+%\vspace{1in}
+
+
+    \resumeSubheading
+      {Paitoo}{February 2019 - September 2019}
+      {Machine Learning Engineer}{Lahore, Pakistan}
+      \resumeItemListStart
+        \resumeItemPlain
+          {Developed a recommendation engine for food centered social media app.}
+
+        \resumeItemPlain
+          {Developed an ensemble based hierarchical image classification model to automatically classify dishes in Paitoo database.}
+%Hierarchical image classification model to automatically classify dishes in the Paitoo database.}
+
+        \resumeItemPlain
+          {Developed, tested and maintained a system to identify and rank trending restaurants and items within the app.}
+
+        
+        \resumeItemPlain
+          {Provided data driven insights about user behavior, to increase customer retention and satisfaction. }
+
+      \resumeItemListEnd
+
+  %  \resumeSubheading
+  %    {DataLog - CodeNConsult}{May 2018 - September 2018 }
+    %  {Computer Engineer Internee}{Karachi, Pakistan}
+ 
+
+
+    
+
+  \resumeSubHeadingListEnd
+
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+     \item{
+    	\textbf{Proficient with}{: Python  -  SkLearn - OpenCV -  Pandas - TensorFlow  - Git - Pytorch - Elastic Search - Linux  - Pytoch - Spacy - AllenNLP}
+    }
+    
+    \item{
+    	\textbf{Have Knowledge of}{: C++ - IoT Technology - C\# - Azure - AWS  - GCP - SQL}
+    	
+    }
+ \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------------
+
+%\vspace{2in}
+
+%----------Courses---------
+\section{Selected Coursework}
+\resumeSubHeadingListStart
+\begin{multicols}{2}
+
+	\resumeNewItem{Machine Learning}
+	\resumeNewItem{Artificial Intelligence}
+	\resumeNewItem{Experimental Design and Data Analysis}		
+	\resumeNewItem{Knowledge Representation}
+	\resumeNewItem{Socially Intelligent Robotics }
+	\resumeNewItem{Evolutionary Computing}
+\resumeNewItem{BioInformatics}
+	\resumeNewItem{Multi-Agent Systems}
+	\resumeNewItem{Data Mining}
+	\resumeNewItem{NLP Technologies}
+	\resumeNewItem{Machine Learning and Reasoning for Healthcare}
+	
+	
+\end{multicols}
+\resumeSubHeadingListEnd
+%
+
+
+
+%-------------------------------------------
+\end{document}
