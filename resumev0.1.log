@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.9)  7 JAN 2023 23:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.6.9)  7 JAN 2023 23:41
 entering extended mode
 **./resumev0.1.tex
 (resumev0.1.tex
@@ -430,38 +430,29 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
 [2] (resumev0.1.aux)
-
-Package rerunfilecheck Warning: File `resumev0.1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resumev0.1.out':
-(rerunfilecheck)             Before: 787A0B33CF9DCA08CACF9C37A3844138;705
-(rerunfilecheck)             After:  35F4649F0CAF4F02B4FD978BB936F0B1;564.
+Package rerunfilecheck Info: File `resumev0.1.out' has not changed.
+(rerunfilecheck)             Checksum: 35F4649F0CAF4F02B4FD978BB936F0B1;564.
  ) 
 Here is how much of TeX's memory you used:
- 9652 strings out of 479334
- 143187 string characters out of 2857085
- 477237 words of memory out of 3000000
- 26978 multiletter control sequences out of 15000+200000
+ 9650 strings out of 479334
+ 143167 string characters out of 2857085
+ 478237 words of memory out of 3000000
+ 26977 multiletter control sequences out of 15000+200000
  409698 words of font info for 51 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 71i,11n,74p,450b,589s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{section.6} has been referenced but does not exist
-, replaced by a fixed one
-
- <C:\Users\daniy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm10
-00.pk> <C:\Users\daniy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1095.pk><C:/Users/daniy/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmbx10.pfb><C:/Users/daniy/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb><C:/Users/daniy/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/daniy/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/daniy/AppData/Local/P
-rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/daniy/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resumev0.1.pdf (2 pages, 100084 bytes).
+ 71i,11n,74p,329b,591s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\daniy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
+1000.pk> <C:\Users\daniy\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm1095.pk><C:/Users/daniy/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmbx10.pfb><C:/Users/daniy/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/daniy/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/daniy/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/daniy/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/daniy/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on resumev0.1.pdf (2 pages, 99437 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
